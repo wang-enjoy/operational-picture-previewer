@@ -1,5 +1,5 @@
 {
-  "name": "@carl/operational-picture-previewer",
+  "name": "@wqn/operational-picture-previewer",
   "description": "vue可操作的图片预览器",
   "version": "0.0.2",
   "author": "carl",
