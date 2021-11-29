@@ -1,7 +1,7 @@
 {
-  "name": "@wqn/operational-picture-previewer",
+  "name": "operational-picture-previewer-wqn",
   "description": "vue可操作的图片预览器",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "author": "carl",
   "files": [
     "dist"
