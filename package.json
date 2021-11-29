@@ -1,0 +1,43 @@
+{
+  "name": "operational-picture-previewer",
+  "description": "vue可操作的图片预览器",
+  "version": "0.0.1",
+  "author": "carl",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/operational-picture-previewer.es.js",
+  "main": "./dist/operational-picture-previewer.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/operational-picture-previewer.es.js",
+      "require": "./dist/operational-picture-previewer.umd.js"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "keywords": [
+    "vue3",
+    "fabric"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "start": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
